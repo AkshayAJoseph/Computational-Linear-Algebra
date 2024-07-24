@@ -16,4 +16,11 @@ END FUNCTION
     5&6&7\\
     \end{pmatrix}
     $$
-!pip install array_to_latex
+
+    ///python
+    # importing Numpy package
+import numpy as np
+import numpy.linalg as la
+import array_to_latex as a2l
+from IPython.display import display, Latex
+
