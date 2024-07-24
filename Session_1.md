@@ -8,9 +8,11 @@ FUNCTION matrix_sum(A,B);
       Set C[i][j] to the sum of A[i][j] and B[i][j]
   RETURN the matrix C
 END FUNCTION
-#Math
-  $A=\begin{matrix}
+# Math
+  $$
+  A=\begin{pmatrix}
     1&2&3\\
     3&4&5\\
     5&6&7\\
-    \end{matrix}$
+    \end{pmatrix}
+    $$
