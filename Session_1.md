@@ -16,11 +16,20 @@ END FUNCTION
     5&6&7\\
     \end{pmatrix}
     $$
-
-    ///python
-    # importing Numpy package
+		
 import numpy as np
 import numpy.linalg as la
 import array_to_latex as a2l
 from IPython.display import display, Latex
+# creating a 2X2 Numpy matrix
+A = np.array([[50, 29], [30, 44]])
+# Displaying the Matrix
+print("Numpy Matrix is:")
+print(A)
 
+$$
+A=\begin{bmatrix}
+  50.00 &  29.00\\
+  30.00 &  44.00\\
+  \end{bmatrix}
+  $$
