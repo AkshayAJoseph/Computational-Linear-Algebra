@@ -1,8 +1,8 @@
 ##  Pseudocode for Linear Algebra
 ///python
 FUNCTION matrix_sum(A,B);
-  Get the number of rows and columns in matrix A /t
-  Create an empty matrix C with same dimensions /t
+  Get the number of rows and columns in matrix A /n
+  Create an empty matrix C with same dimensions /n
   FOR each row i;
     FOR each column j;
       Set C[i][j] to the sum of A[i][j] and B[i][j]
