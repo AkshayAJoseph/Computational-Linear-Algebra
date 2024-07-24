@@ -16,3 +16,4 @@ END FUNCTION
     5&6&7\\
     \end{pmatrix}
     $$
+!pip install array_to_latex
