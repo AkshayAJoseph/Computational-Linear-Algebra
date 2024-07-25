@@ -38,8 +38,8 @@ END FUNCTION
 FUNCTION solution(A,b):\
   Create Augmented matrix:k=[A/b]\
   Reduce to Row Reduced echelon form
-  Rank= number of non-zero rows of RREF
-  IF Rank(k)!=Rank(A)
+  Rank = number of non-zero rows of RREF
+  IF Rank(k)!= Rank(A)
     print(system is inconsistent)
   ELSE IF:
     solve using back substitution
@@ -116,3 +116,11 @@ FUNCTION swap_rows(matrix, row1, row2):
     matrix[row2] = temp
 END FUNCTION
 ```
+$$
+\begin{cases}
+x + 2y + 3z &= 9 \\
+4x + 5y + 6z& = 24 \\
+7x + 8y + 9z& = 39
+\end{cases}
+$$
+
